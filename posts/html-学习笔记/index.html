@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="author" content="VarKai" />
+	
+	
+	
+	<title>HTML-学习笔记 ｜ ZO ZO</title>
+	
+    
+    
+    <meta name="description" content="什么是HTML？ HTML是「HyperText Mark-up Language」的首字母缩写，中文全称是「超文本标记语言」，是一种用于创建网页的标记语言。它不是一种编程语言，而是一种标记语言「markup langu" />
+    
+
+    
+    
+    <meta name="keywords" content="Hugo, theme, zozo" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://Akirako.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://Akirako.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://Akirako.github.io/css/zozo.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://Akirako.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Archive</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://Akirako.github.io">
+                    <span>ZO ZO</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">the site subtitle</p>
+            <div class="my_socials">
+                
+                
+                <a href="%20" title="facebook" target="_blank"><i class="ri-facebook-fill"></i></a>
+                
+                
+                
+                <a href="%20" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="%20" title="instagram" target="_blank"><i class="ri-instagram-fill"></i></a>
+                
+                
+                
+                <a href="%20" title="twitter" target="_blank"><i class="ri-twitter-fill"></i></a>
+                
+                
+                
+                <a href="%20" title="weibo" target="_blank"><i class="ri-weibo-fill"></i></a>
+                
+                
+                <a href="https://Akirako.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/html-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/'>HTML-学习笔记</a></h2>
+                        <span class="date">2020.06.28</span>
+                    </div>
+                    <div class="post_content markdown"><h4 id="什么是html">什么是HTML？</h4>
+<p>HTML是「HyperText Mark-up Language」的首字母缩写，中文全称是「超文本标记语言」，是一种用于创建网页的标记语言。它不是一种编程语言，而是一种标记语言「markup language」。</p>
+<hr>
+<h4 id="什么是html标签">什么是HTML标签？</h4>
+<p>标记语言是一套标记标签「markup tag」，HTML标记标签通常被称为 HTML 标签。</p>
+<p>HTML 标签有尖括号包裹关键词，如：<code>&lt;html&gt;</code> 、<code>&lt;head&gt;</code> 、<code>&lt;body&gt;</code>  等等。</p>
+<p>HTML 标签通常是成对出现的，比如：</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div><p>标签对中的第一个标签是开始标签，第二个标签是结束标签，结束标签具有 / 。</p>
+<p>此外，HTML 标签也有单独出现的标签，比如：</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">img</span><span class="p">&gt;</span>
+</code></pre></div><hr>
+<h4 id="html-文档结构">HTML 文档结构</h4>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span><span class="c">&lt;!--!:表示申明的意思。这一行代码的意思是：下面的文档标签将以html5规范去解析--&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="c">&lt;!--1.头部，主要用来完成一个网页的相关设定的。--&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span><span class="c">&lt;!--编码方式--&gt;</span> <span class="c">&lt;!--meta:元，主要用来完成对应设定的--&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;keywords&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;</span><span class="c">&lt;!--设定一个网站的搜索关键字--&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;description&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;</span><span class="c">&lt;!--网站的描述内容--&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>我是一个网页的标题<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="c">&lt;!--标题--&gt;</span>
+    <span class="c">&lt;!--下面link引入的是设定网站小图标--&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;shortcut icon&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://img.alicdn.com/tps/i3/T1OjaVFl4dXXa.JOZB-114-114.png&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;image/png&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+        <span class="c">/*书写样式的地方*/</span>
+    <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;style.css&#34;</span><span class="p">&gt;</span><span class="c">&lt;!--用来引入外部样式文件--&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="c">&lt;!--2.主体部分--&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>这是一个段落<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="c1">// 放脚本代码的地方
+</span><span class="c1"></span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div><ul>
+<li>
+<p><code>&lt;html&gt;&lt;/html&gt;</code>称为根元素，所有的网页元素都在<code>&lt;html&gt;</code> <code>&lt;/html&gt;</code> 中；</p>
+</li>
+<li>
+<p><code>&lt;head&gt;&lt;/head&gt;</code>元素用于定义文档的头部；</p>
+<blockquote>
+<p>头部元素含有：<code>&lt;base&gt;</code> <code>&lt;meta&gt;</code> <code>&lt;title&gt;</code> <code>&lt;link&gt;</code> <code>&lt;script&gt;</code> <code>&lt;style&gt;</code> ；</p>
+</blockquote>
+<ul>
+<li><code>&lt;title&gt;...&lt;/title&gt;</code> 用于定义网页的标题，标题写在 <code>&lt;title&gt;</code> 和 <code>&lt;/title&gt;</code> 之间；</li>
+<li><code>&lt;meta&gt;</code> 提供关于 HTML 文档的元数据，元数据不会显示在页面上，但对浏览器是可读的；</li>
+<li><code>&lt;link&gt;</code> 用于来引入页面图标、外部CSS文件等；</li>
+<li><code>&lt;script&gt;&lt;/script&gt;</code> 用于放置或引入 JavaScript 脚本内容；</li>
+<li><code>&lt;style&gt;&lt;/style&gt;</code> 用于为 HTML 文档定义样式信息；</li>
+<li><code>&lt;base&gt;</code> 用于为页面上的所有链接规定默认地址或默认目标「target」。</li>
+</ul>
+</li>
+<li>
+<p><code>&lt;body&gt;&lt;/body&gt;</code> 元素用于定义页面显示的内容，将需要呈现的内容编辑于 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 之间；</p>
+</li>
+</ul>
+<hr>
+<h4 id="html-中-head-元素内的常用设定">HTML 中 head 元素内的常用设定</h4>
+<h5 id="meta-元素">meta 元素</h5>
+<ul>
+<li>编码格式</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>HTML 5 设定网页编码格式的方式。</p>
+<p>来自维基百科：UTF-8「8-bit Unicode Transformation Format」是一种针对<a href="https://zh.wikipedia.org/wiki/Unicode">Unicode</a>的可变长度<a href="https://zh.wikipedia.org/wiki/%E5%AD%97%E5%85%83%E7%B7%A8%E7%A2%BC">字符编码</a>，也是一种<a href="https://zh.wikipedia.org/wiki/%E5%89%8D%E7%BC%80%E7%A0%81">前缀码</a>。自2009年以来，UTF-8一直是万维网的最主要的编码形式，截止到2019年11月， 在所有网页中，UTF-8编码应用率高达94.3%。第二热门的多字节编码方式 Shift JIS 和 GB 2312 分别具有0.3％和0.2％的占有率。</p>
+</blockquote>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&#34;content-Type&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;text/html; charset=utf-8&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>旧版本 HTML 设定编码格式的方式，现已不推荐，更多的是使用 HTML 5 的设定方式。</p>
+</blockquote>
+<ul>
+<li>keywords (关键字)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;keywords&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;博客&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于告诉搜索引擎，您网页的关键字。</p>
+</blockquote>
+<ul>
+<li>description (网站内容的描述)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;description&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于告诉搜索引擎，您网页的主要内容。</p>
+</blockquote>
+<ul>
+<li>viewport (移动端的窗口)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;viewport&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;width=device-width, initial-scale=1&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于设计移动端网页时做的设定。</p>
+<p>&ldquo;width=device-width&rdquo;：宽度=设备宽度</p>
+<p>“initial-scale=1.0&rdquo;：初始比例=100%</p>
+<hr>
+<p>width：控制页面在设备荧幕上可视区域的宽度，可以指定一个值。</p>
+<p>height：同上，控制页面在设备荧幕上可视区域的高度。</p>
+<p>initial-scale：初始缩放比例。</p>
+<p>maximum-scale：允许用户缩放到的最大比例。</p>
+<p>minimum-scale：允许用户缩放到的最小比例。</p>
+<p>user-scalable：用户是否可以手动缩放。</p>
+</blockquote>
+<blockquote>
+<p><strong>常见的设定大概是：</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- 指定荧幕宽度为设备宽度，画面载入初始缩放比例 100% --&gt;</span>
+<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;viewport&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;width=device-width, initial-scale=1&#34;</span><span class="p">&gt;</span>
+
+<span class="c">&lt;!-- 以下两种方法都可以防止用户做画面缩放，将画面缩放比例锁定在 100% --&gt;</span>
+<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;viewport&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1&#34;</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;viewport&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;width=device-width, initial-scale=1, user-scalable=no&#34;</span><span class="p">&gt;</span>
+</code></pre></div><p>参考资料：<a href="https://medium.com/frochu/html-meta-viewport-setting-69fbb06ed3d8">Responsive Web Design 基礎 : <meta name="viewport" > 設定</a></p>
+</blockquote>
+<ul>
+<li>author (作者)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;author&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;张三&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于标注网页的作者。</p>
+</blockquote>
+<ul>
+<li>robots (定义搜索引擎爬虫的索引方式)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;robots&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;none&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于告诉爬虫哪些页面需要索引，哪些页面不需要索引。</p>
+<hr>
+<p>none：搜索引擎将忽略此网页，等价于noindex，nofollow。</p>
+<p>noindex：搜索引擎不索引此网页。</p>
+<p>nofollow：搜索引擎不继续通过此网页的链接索引搜索其他网页。</p>
+<p>all：搜索引擎将索引此网页并且继续通过此网页的链接索引其他网页，等价于index，follow。</p>
+<p>index：搜索引擎索引此网页。</p>
+<p>follow：搜索引擎继续通过此网页的链接索引搜索其他网页。</p>
+</blockquote>
+<ul>
+<li>revisit-after (搜索引擎爬虫重访时间)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;revisit-after&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;7 days&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于设定搜索引擎爬虫重访时间，如果页面不是经常更新，为了减轻搜索引擎爬虫对服务器带来的压力，可以设定该属性。如果设定的重访时间过短，爬虫将按它们定义的默认时间来访问。</p>
+</blockquote>
+<ul>
+<li>copyright (版权)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;copyright&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;</span> 
+</code></pre></div><blockquote>
+<p>用于标注版权信息，代表该网站为 XX 个人版权所有。</p>
+</blockquote>
+<ul>
+<li>X-UA-Compatible (浏览器采取何种版本渲染当前页面)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&#34;X-UA-Compatible&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;IE=edge,chrome=1&#34;</span><span class="p">&gt;</span> 
+</code></pre></div><blockquote>
+<p>用于告知浏览器以何种版本来渲染页面。</p>
+<p>IE=edge, chrome=1：指定 IE 和 Chrome 都使用最新版本来渲染当前页面。</p>
+</blockquote>
+<ul>
+<li>expires (网页到期时间)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&#34;expires&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;Sunday 26 October 2016 01:00 GMT&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于设定网页的到期时间， 过期后网页必须到服务器上重新传输。</p>
+</blockquote>
+<ul>
+<li>Set-Cookie (cookie设定)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- 格式 --&gt;</span>
+<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&#34;Set-Cookie&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;name, date&#34;</span><span class="p">&gt;</span>
+
+<span class="c">&lt;!-- 例子 --&gt;</span>
+<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&#34;Set-Cookie&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;User=xxxxx; path=/; expires=Sunday, 10-Jan-16 10:00:00 GMT&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>如果网页过期。那么这个网页存在本地的cookies也会被自动删除。</p>
+</blockquote>
+<ul>
+<li>refresh (自动刷新并指向某页面)</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&#34;refresh&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;2；URL=http://www.xxxxx.com/&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于设定网页自动刷新且跳转到指定网站。</p>
+<p>content=&quot;2；URL=http://www.xxxxx.com/&rdquo; ：意思是 2 秒后将刷新并且跳转到指定的网址。</p>
+</blockquote>
+<hr>
+<h5 id="title-元素">title 元素</h5>
+<ul>
+<li>网页标题</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>我是这个网页的标题<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>定义网页的标题。</p>
+</blockquote>
+<hr>
+<h5 id="link-元素">link 元素</h5>
+<ul>
+<li>引入外部样式文件</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/css&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;style.css&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于引入外部CSS文件。</p>
+</blockquote>
+<ul>
+<li>加载图标</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;shortcut icon &#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;images/x-icon&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;favicon.ico&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于加载网页的图标。</p>
+</blockquote>
+<hr>
+<h5 id="style-元素">style 元素</h5>
+<ul>
+<li>设定元素的样式</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="nt">div</span> <span class="p">{</span>
+        <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">px</span><span class="p">;</span>
+        <span class="k">height</span><span class="p">:</span> <span class="mi">100</span><span class="kt">px</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于为元素定义样式。</p>
+</blockquote>
+<hr>
+<h5 id="script-元素">script 元素</h5>
+<ul>
+<li>设定 JavaScript 脚本内容</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+	<span class="kd">function</span> <span class="nx">f</span><span class="p">()</span> <span class="p">{</span>
+    	<span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="s1">&#39;script 标签中可以书写JS代码&#39;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="nx">f</span><span class="p">();</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于定义页面的脚本内容。</p>
+</blockquote>
+<ul>
+<li>引入外部 JavaScript 文件</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;ss.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用于引入外部 JavaScript 文件。注意：一旦该组 script 标签用于引入外部 JS 文件后，再在其标签中书写 JS 代码将不被浏览器识别。向重新创建新的 script 标签中添加 JS 代码则不会受到影响。</p>
+</blockquote>
+<hr>
+<h4 id="常用的基本元素">常用的基本元素</h4>
+<ul>
+<li><code>&lt;div&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>区块标题<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>区块描述内容<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p><code>&lt;div&gt;</code> 元素是块级元素，可用于包裹大的内容块，设置样式，用来布局等等。</p>
+</blockquote>
+<ul>
+<li><code>&lt;hx&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>我是一级标题<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>我是二级标题<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>我是三级标题<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">h4</span><span class="p">&gt;</span>我是四级标题<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">h5</span><span class="p">&gt;</span>我是五级标题<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">h6</span><span class="p">&gt;</span>我是六级标题<span class="p">&lt;/</span><span class="nt">h6</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>HTML 标题标签，提供有 6 种标题，分别是：<code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code> ，<code>&lt;h1&gt;</code> 定义最大号标题，<code>&lt;h6&gt;</code> 定义最小号标题。</p>
+</blockquote>
+<ul>
+<li><code>&lt;p&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>这是一段文字<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>这是下一段文字<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>定义 HTML 文档中的一个段落。</p>
+</blockquote>
+<ul>
+<li><code>&lt;span&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>姓名：张三<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>年级：高2020级<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>班级：1 班<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用来组合文档中的内联元素，可用作文本的容器。</p>
+</blockquote>
+<ul>
+<li><code>&lt;img&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#39;small_01.jpg&#39;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&#34;photo&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用来申明图像的插入。</p>
+</blockquote>
+<ul>
+<li><code>&lt;a&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;http://www.google.com&#34;</span><span class="p">&gt;</span>这是一个链接<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>用来设置超文本链接。</p>
+</blockquote>
+<ul>
+<li><code>&lt;ul&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>这是无序列表<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>这是无序列表<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>这是无序列表<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>无序列表。</p>
+</blockquote>
+<ul>
+<li><code>&lt;ol&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ol</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>这是有序列表<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>这是有序列表<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>这是有序列表<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ol</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>有序列表。</p>
+</blockquote>
+<ul>
+<li><code>&lt;!--注释--&gt;</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!--这是注释内容--&gt;</span>
+</code></pre></div><blockquote>
+<p>用于在源代码中插入注释。注释不会显示在浏览器中。 可使用注释对代码进行解释，这样做
+有助于在以后的时间对代码的修改，当编写了大量代码时尤其有用。</p>
+</blockquote>
+<hr>
+<h4 id="块级元素和内联元素">块级元素和内联元素</h4>
+<p>大多数 HTML 元素被定义为块级元素或内联元素。</p>
+<p><strong>块级元素</strong>占据其父元素（容器）的整个空间，因此创建了一个“块”。通常浏览器会在块级元素前后另起一行。能容纳其他块元素或者内联元素。块级元素的宽度默认为整行宽度，高度为内容实际的高度。</p>
+<p><strong>内联元素</strong>在显示时通常不会以新行开始。并且它的宽度和高度分别为内容实际的宽度和高度</p>
+<p><strong>区别：</strong></p>
+<ul>
+<li>
+<p>块级元素，总是在新行上开始；内联元素，和其他元素在一行；</p>
+</li>
+<li>
+<p>块级元素，能容纳其他块级元素或者内联元素；内联元素，只能容纳文本或其他内联元素；</p>
+</li>
+<li>
+<p>块级元素中高度，宽度都可以控制；内联元素中高度，宽度不可改变。</p>
+</li>
+</ul>
+<blockquote>
+<p>通过 display 可以进行转换。</p>
+</blockquote>
+<p>举个栗子：</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+	<span class="nt">div</span> <span class="p">{</span>
+		<span class="k">background-color</span><span class="p">:</span> <span class="mh">#ff6239</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="nt">span</span> <span class="p">{</span>
+		<span class="k">background-color</span><span class="p">:</span> <span class="mh">#46a6e8</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>div is block level element<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>span is inline element<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</code></pre></div><p>在页面中的体现：</p>
+<p><img src="/posts/image/html-xxbj-001.jpg" alt=""></p>
+<hr>
+<h4 id="常用的块级元素">常用的块级元素</h4>
+<p>|     div     |     p     |     dl     |       ul       |    ol    |   table    |
+|   h1    |  <strong>h2</strong>   |   <strong>h3</strong>   |     <strong>h4</strong>     |  <strong>h5</strong>  |   <strong>h6</strong>   |
+| <strong>address</strong> |  <strong>pre</strong>  |   <strong>hr</strong>   | <strong>blockquote</strong> | <strong>menu</strong> | <strong>header</strong> |
+| <strong>section</strong> | <strong>aside</strong> | <strong>footer</strong> |    <strong>&hellip;</strong>     |          |            |</p>
+<h4 id="常用的内联元素">常用的内联元素</h4>
+<table>
+<thead>
+<tr>
+<th align="center">span</th>
+<th align="center">img</th>
+<th align="center">a</th>
+<th align="center">lable</th>
+<th align="center">input</th>
+<th align="center">abbr</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>textarea</strong></td>
+<td align="center"><strong>q</strong></td>
+<td align="center"><strong>i</strong></td>
+<td align="center"><strong>cite</strong></td>
+<td align="center"><strong>big</strong></td>
+<td align="center"><strong>em</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>select</strong></td>
+<td align="center"><strong>small</strong></td>
+<td align="center"><strong>sub</strong></td>
+<td align="center"><strong>sup</strong></td>
+<td align="center"><strong>strong</strong></td>
+<td align="center"><strong>u</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="html-标签属性">HTML 标签属性</h4>
+<h5 id="通用属性">通用属性</h5>
+<ul>
+<li>id</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;div1&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;div2&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>规定元素的唯一 id。id 属性是唯一的，设定 id 时，一个元素对应一个唯一的 id ，别的元素将无法再使用该 id。</p>
+</blockquote>
+<ul>
+<li>class</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">h2</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;class1&#34;</span><span class="p">&gt;</span>这里是标题<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;class1&#34;</span><span class="p">&gt;</span>这里是内容<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>规定元素的类名。类名是可重复的，可将需要设定相同样式的元素应用同一类名。</p>
+</blockquote>
+<ul>
+<li>style</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;width: 200px; height: 200px; background-color:#ff9632;&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>规定元素的行内样式。</p>
+</blockquote>
+<ul>
+<li>title</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;width: 200px; height: 200px; background-color:#ff9632;&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;鼠标放上来将显示此段信息&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>规定元素的额外信息，当鼠标放在元素上，提示的文本内容。</p>
+</blockquote>
+<hr>
+<h5 id="自定义属性">自定义属性</h5>
+<ul>
+<li>data-*</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!--以下代码是实际开发的案例，img标签显示的是缩略图，而data-src的值为点击显示原图的地址--&gt;</span>
+<span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;image/01.jpg&#34;</span> <span class="na">data-src</span><span class="o">=</span><span class="s">&#34;image/big_01.jpg&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p>HTML5规范中指定如果需要使用自定义属性，需要用 data-* 的方式，比如：<code>data-src</code> <code>data-index</code></p>
+<p><code>data-src</code> 属性是HTML5中引入的 data- * attributes 集合的一部分。 <code>data-src</code> 允许我们存储对浏览器没有意义但可以由 JavaScript 代码或 CSS 规则使用的额外数据。</p>
+</blockquote>
+<hr>
+<h5 id="标签的私有属性">标签的私有属性</h5>
+<ul>
+<li>HTML 标签中，不同的标签具有不同的私有属性，比如：</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;http://www.google.com&#34;</span><span class="p">&gt;</span>这是一个链接<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p><code>&lt;a&gt;</code> 标签的 <code>href</code> 属性。</p>
+</blockquote>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;small_01.jpg&#34;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p><code>&lt;img&gt;</code> 标签的 <code>src</code> 属性。</p>
+</blockquote>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;请输入您的账号&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;submit&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;登录&#34;</span><span class="p">&gt;</span>
+</code></pre></div><blockquote>
+<p><code>&lt;input&gt;</code> 标签的 <code>type</code> 、<code>name</code> 、<code>value</code> 、<code>placeholder</code> 等等。</p>
+</blockquote>
+<h4 id="html-常用的实体转义字符">HTML 常用的实体转义字符</h4>
+<p>在HTML中，内容编辑时，如果是通过空格键编辑的多个空格，网页只会显示成一个，而小于号（&lt;）和
+大于号（&gt;），网站则会认为是标签而无法直接显示在页面中。而这些都可以通过实体字符来解决；</p>
+<p>同一个符号，可以用 “实体名称” 和 “实体编号” 两种方式引用。</p>
+<table>
+<thead>
+<tr>
+<th align="center">显示</th>
+<th align="center">说明</th>
+<th align="center">实体名称</th>
+<th align="center">实体编号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">&lt;</td>
+<td align="center">小于</td>
+<td align="center"><code>&amp;lt;</code></td>
+<td align="center"><code>&amp;#60;</code></td>
+</tr>
+<tr>
+<td align="center">&gt;</td>
+<td align="center">大于</td>
+<td align="center"><code>&amp;gt;</code></td>
+<td align="center"><code>&amp;#62;</code></td>
+</tr>
+<tr>
+<td align="center">&amp;</td>
+<td align="center">&amp;符号</td>
+<td align="center"><code>&amp;amp;</code></td>
+<td align="center"><code>&amp;#38;</code></td>
+</tr>
+<tr>
+<td align="center">&quot;</td>
+<td align="center">双引号</td>
+<td align="center"><code>&amp;quot;</code></td>
+<td align="center"><code>&amp;#34;</code></td>
+</tr>
+<tr>
+<td align="center">©</td>
+<td align="center">版权</td>
+<td align="center"><code>&amp;copy;</code></td>
+<td align="center"><code>&amp;#169;</code></td>
+</tr>
+<tr>
+<td align="center">×</td>
+<td align="center">乘号</td>
+<td align="center"><code>&amp;times;</code></td>
+<td align="center"><code>&amp;#215;</code></td>
+</tr>
+<tr>
+<td align="center">÷</td>
+<td align="center">除号</td>
+<td align="center"><code>&amp;divide;</code></td>
+<td align="center"><code>&amp;#247;</code></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">空格</td>
+<td align="center"><code>&amp;nbsp;</code></td>
+<td align="center"><code>&amp;#160;</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>获取更多实体转义符，参考资料：<a href="https://tool.oschina.net/commons?type=2">HTML 实体转义字符对照表</a></p>
+</blockquote>
+<br></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://Akirako.github.io/tags/html/">HTML</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>My spiritual home</span>
+    </div>
+</footer>
+    <script src="https://Akirako.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://Akirako.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://Akirako.github.io/js/fancybox.min.js"></script>
+<script src="https://Akirako.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+</body>
+
+</html>
