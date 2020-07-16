@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ZO ZO</title>
-    <link>https://Akirako.github.io/posts/</link>
+    <link>http://Akirako.github.io/posts/</link>
     <description>Recent content in Posts on ZO ZO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Jun 2020 14:26:00 +0800</lastBuildDate>
     
-	<atom:link href="https://Akirako.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://Akirako.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML-学习笔记</title>
-      <link>https://Akirako.github.io/posts/html-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>http://Akirako.github.io/posts/html-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sun, 28 Jun 2020 14:26:00 +0800</pubDate>
       
-      <guid>https://Akirako.github.io/posts/html-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://Akirako.github.io/posts/html-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description>什么是HTML？ HTML是「HyperText Mark-up Language」的首字母缩写，中文全称是「超文本标记语言」，是一种用于创建网页的标记语言。它不是一种编程语言，而是一种标记语言「markup langu</description>
     </item>
     
     <item>
       <title>药师灌顶真言</title>
-      <link>https://Akirako.github.io/posts/chinese-preview/</link>
+      <link>http://Akirako.github.io/posts/chinese-preview/</link>
       <pubDate>Thu, 11 Apr 2019 14:26:00 +0800</pubDate>
       
-      <guid>https://Akirako.github.io/posts/chinese-preview/</guid>
+      <guid>http://Akirako.github.io/posts/chinese-preview/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;修学药师灌顶真言是药师法门的一部分，读诵修持有着极大的功德利益&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>日本語敬語体系</title>
-      <link>https://Akirako.github.io/posts/japanese-preview/</link>
+      <link>http://Akirako.github.io/posts/japanese-preview/</link>
       <pubDate>Wed, 10 Apr 2019 14:26:00 +0800</pubDate>
       
-      <guid>https://Akirako.github.io/posts/japanese-preview/</guid>
+      <guid>http://Akirako.github.io/posts/japanese-preview/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -51,20 +51,20 @@
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://Akirako.github.io/posts/english-preview/</link>
+      <link>http://Akirako.github.io/posts/english-preview/</link>
       <pubDate>Mon, 01 Apr 2019 14:26:00 +0800</pubDate>
       
-      <guid>https://Akirako.github.io/posts/english-preview/</guid>
+      <guid>http://Akirako.github.io/posts/english-preview/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Theme Preview</title>
-      <link>https://Akirako.github.io/posts/theme-preview/</link>
+      <link>http://Akirako.github.io/posts/theme-preview/</link>
       <pubDate>Sun, 31 Mar 2019 17:49:40 +0800</pubDate>
       
-      <guid>https://Akirako.github.io/posts/theme-preview/</guid>
+      <guid>http://Akirako.github.io/posts/theme-preview/</guid>
       <description>&lt;h1 id=&#34;headings&#34;&gt;Headings&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# H1
 &lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## H2
