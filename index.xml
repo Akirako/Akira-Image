@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ZO ZO</title>
+    <title>Akirako</title>
     <link>https://akirako.top/</link>
-    <description>Recent content on ZO ZO</description>
+    <description>Recent content on Akirako</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Jun 2020 14:26:00 +0800</lastBuildDate>
@@ -17,7 +17,9 @@
       <pubDate>Sun, 28 Jun 2020 14:26:00 +0800</pubDate>
       
       <guid>https://akirako.top/posts/html-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description>什么是HTML？ HTML是「HyperText Mark-up Language」的首字母缩写，中文全称是「超文本标记语言」，是一种用于创建网页的标记语言。它不是一种编程语言，而是一种标记语言「markup langu</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;超文本标记语言是一种用于建立网页的标准标记语言。HTML常与CSS、JavaScript一起被用于设计建设网页、网页应用程式以及移动应用程式等。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -81,7 +83,7 @@
       <pubDate>Sat, 29 Dec 2018 20:24:28 +0800</pubDate>
       
       <guid>https://akirako.top/about/</guid>
-      <description>Hugo 官方主页: https://gohugo.io/ Hugo的安装方式有两种，一种是直接下载编译好的Hugo二进制文件。如果只是使用Hugo推荐用这种方式。另一种方式是获取Hugo的源码，自己编译。由于各种不可预料的网络问题，第二种方式不</description>
+      <description>I’m a slow walker, but I never backwards&amp;hellip; 93年出生，一个简单的代码爱好者。正在学习前端开发，挖坑小能手，填坑懒惰者。 天生宅 &amp;amp; 摄影新手 &amp;amp; 前端学习中 音乐 - 电影 - 日剧 - 美食 - 睡觉 这是一个应用Hugo框架创建的个人博客，部署在G</description>
     </item>
     
   </channel>

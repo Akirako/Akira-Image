@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ZO ZO</title>
+    <title>Posts on Akirako</title>
     <link>https://akirako.top/posts/</link>
-    <description>Recent content in Posts on ZO ZO</description>
+    <description>Recent content in Posts on Akirako</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Jun 2020 14:26:00 +0800</lastBuildDate>
@@ -17,7 +17,9 @@
       <pubDate>Sun, 28 Jun 2020 14:26:00 +0800</pubDate>
       
       <guid>https://akirako.top/posts/html-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description>什么是HTML？ HTML是「HyperText Mark-up Language」的首字母缩写，中文全称是「超文本标记语言」，是一种用于创建网页的标记语言。它不是一种编程语言，而是一种标记语言「markup langu</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;超文本标记语言是一种用于建立网页的标准标记语言。HTML常与CSS、JavaScript一起被用于设计建设网页、网页应用程式以及移动应用程式等。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
