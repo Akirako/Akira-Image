@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Akirako</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jun 2020 14:26:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 14:26:00 +0800</lastBuildDate>
     
 	<atom:link href="https://akirako.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JS</title>
+      <link>https://akirako.top/tags/js/</link>
+      <pubDate>Fri, 17 Jul 2020 14:26:00 +0800</pubDate>
+      
+      <guid>https://akirako.top/tags/js/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>HTML</title>
@@ -17,60 +26,6 @@
       <pubDate>Sun, 28 Jun 2020 14:26:00 +0800</pubDate>
       
       <guid>https://akirako.top/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>中文</title>
-      <link>https://akirako.top/tags/%E4%B8%AD%E6%96%87/</link>
-      <pubDate>Thu, 11 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://akirako.top/tags/%E4%B8%AD%E6%96%87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>真言</title>
-      <link>https://akirako.top/tags/%E7%9C%9F%E8%A8%80/</link>
-      <pubDate>Thu, 11 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://akirako.top/tags/%E7%9C%9F%E8%A8%80/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>体系</title>
-      <link>https://akirako.top/tags/%E4%BD%93%E7%B3%BB/</link>
-      <pubDate>Wed, 10 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://akirako.top/tags/%E4%BD%93%E7%B3%BB/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>日本語</title>
-      <link>https://akirako.top/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
-      <pubDate>Wed, 10 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://akirako.top/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://akirako.top/tags/english/</link>
-      <pubDate>Mon, 01 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://akirako.top/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme</title>
-      <link>https://akirako.top/tags/theme/</link>
-      <pubDate>Mon, 01 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://akirako.top/tags/theme/</guid>
       <description></description>
     </item>
     
